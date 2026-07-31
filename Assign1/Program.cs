@@ -1,29 +1,49 @@
-﻿// Summary: Simple browser history simulator using a fixed-size stack-like history buffer.
-// This program supports visiting pages, going back, viewing the current page, and displaying stored history.
-using System;
+﻿using System;
 
+/// <summary>
+/// Simulates a simple browser history using a fixed-size stack.
+/// Supports visiting pages, going back, viewing the current page,
+/// displaying history, clearing history, and counting stored pages.
+/// </summary>
 class BrowserHistory
 {
+    /// <summary>
+    /// Fixed-size array used to store visited web pages.
+    /// </summary>
     private string[] history = new string[10];
+
+    /// <summary>
+    /// Points to the current page in the history.
+    /// A value of -1 indicates that no pages have been visited.
+    /// </summary>
     private int top = -1;
 
-    // Visit a new page
-    // Add a new page to the browser history.
+    /// <summary>
+    /// Adds a new page to the browser history.
+    /// </summary>
+    /// <param name="page">The website or page name to visit.</param>
     public void VisitPage(string page)
     {
+        // Check if the history is already full.
         if (top == history.Length - 1)
         {
             Console.WriteLine("History Full");
             return;
         }
 
+        // Move to the next position and store the new page.
         history[++top] = page;
+
         Console.WriteLine("Visited: " + page);
     }
 
-    // Back
+    /// <summary>
+    /// Goes back to the previous page by removing
+    /// the current page from the history.
+    /// </summary>
     public void Back()
     {
+        // Check if there are any pages in history.
         if (top == -1)
         {
             Console.WriteLine("No Pages in History");
@@ -33,9 +53,12 @@ class BrowserHistory
         Console.WriteLine("Back From: " + history[top--]);
     }
 
-    // Current Page
+    /// <summary>
+    /// Displays the page that is currently open.
+    /// </summary>
     public void CurrentPage()
     {
+        // Check whether any page exists.
         if (top == -1)
         {
             Console.WriteLine("No Current Page");
@@ -45,9 +68,13 @@ class BrowserHistory
         Console.WriteLine("Current Page: " + history[top]);
     }
 
-    // Display History
+    /// <summary>
+    /// Displays all visited pages in reverse order,
+    /// starting from the most recently visited page.
+    /// </summary>
     public void DisplayHistory()
     {
+        // Check whether history is empty.
         if (top == -1)
         {
             Console.WriteLine("History Empty");
@@ -56,33 +83,48 @@ class BrowserHistory
 
         Console.WriteLine("Browser History:");
 
+        // Print history from newest to oldest.
         for (int i = top; i >= 0; i--)
         {
             Console.WriteLine(history[i]);
         }
     }
 
-    // Clear History
+    /// <summary>
+    /// Clears all browser history.
+    /// </summary>
     public void ClearHistory()
     {
+        // Reset the top pointer.
         top = -1;
+
         Console.WriteLine("History Cleared");
     }
 
-    // Total Pages
+    /// <summary>
+    /// Displays the total number of stored pages.
+    /// </summary>
     public void TotalPages()
     {
         Console.WriteLine("Total Pages: " + (top + 1));
     }
 }
 
+/// <summary>
+/// Entry point of the Browser History application.
+/// Displays a menu and performs user-selected operations.
+/// </summary>
 class Program
 {
+    /// <summary>
+    /// Main method of the application.
+    /// </summary>
     static void Main()
     {
-        // Main loop presents a menu to the user and performs browser history operations.
+        // Create a BrowserHistory object.
         BrowserHistory browser = new BrowserHistory();
 
+        // Continue running until the user chooses Exit.
         while (true)
         {
             Console.WriteLine("\n=================================");
@@ -102,20 +144,19 @@ class Program
             switch (choice)
             {
                 case 1:
-                    // Console.Write("Enter Website: ");
-                    // string page = Console.ReadLine();
-                    // browser.VisitPage(page);
 
+                    // Read the website name from the user.
                     Console.Write("Enter Website: ");
                     string? page = Console.ReadLine();
 
+                    // Validate that the input is not empty.
                     if (!string.IsNullOrWhiteSpace(page))
                     {
                         browser.VisitPage(page);
                     }
                     else
                     {
-                        Console.WriteLine("Invalid website.");
+                        Console.WriteLine("Invalid Website.");
                     }
                     break;
 
@@ -140,7 +181,7 @@ class Program
                     break;
 
                 case 7:
-                    Console.WriteLine("Thank You");
+                    Console.WriteLine("Thank You!");
                     return;
 
                 default:

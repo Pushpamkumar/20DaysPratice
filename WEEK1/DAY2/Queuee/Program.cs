@@ -1,16 +1,34 @@
-﻿// Summary: Hospital queue management example using a fixed-size array.
-// Supports registering patients, calling the next patient, and searching the queue.
-using System;
+﻿using System;
 
+/// <summary>
+/// Represents a simple hospital queue management system.
+/// Supports patient registration, calling patients,
+/// viewing the next patient, searching, and counting waiting patients.
+/// </summary>
 class HospitalQueue
 {
+    /// <summary>
+    /// Stores patient names in the queue.
+    /// </summary>
     private string[] patients = new string[10];
+
+    /// <summary>
+    /// Points to the first patient in the queue.
+    /// </summary>
     private int front = 0;
+
+    /// <summary>
+    /// Points to the last patient in the queue.
+    /// </summary>
     private int rear = -1;
 
-    // Register Patient
+    /// <summary>
+    /// Registers a new patient in the queue.
+    /// </summary>
+    /// <param name="name">Patient name.</param>
     public void RegisterPatient(string name)
     {
+        // Check if the queue is full.
         if (rear == patients.Length - 1)
         {
             Console.WriteLine("Queue Full");
@@ -21,7 +39,9 @@ class HospitalQueue
         Console.WriteLine("Patient Registered: " + name);
     }
 
-    // Call Next Patient
+    /// <summary>
+    /// Calls the next patient from the queue.
+    /// </summary>
     public void CallNextPatient()
     {
         if (front > rear)
@@ -33,7 +53,9 @@ class HospitalQueue
         Console.WriteLine("Calling: " + patients[front++]);
     }
 
-    // View Next Patient
+    /// <summary>
+    /// Displays the next patient in the queue.
+    /// </summary>
     public void ViewNextPatient()
     {
         if (front > rear)
@@ -45,7 +67,9 @@ class HospitalQueue
         Console.WriteLine("Next Patient: " + patients[front]);
     }
 
-    // Display Waiting Patients
+    /// <summary>
+    /// Displays all waiting patients.
+    /// </summary>
     public void DisplayWaitingPatients()
     {
         if (front > rear)
@@ -62,7 +86,10 @@ class HospitalQueue
         }
     }
 
-    // Search Patient
+    /// <summary>
+    /// Searches for a patient by name.
+    /// </summary>
+    /// <param name="name">Patient name to search.</param>
     public void SearchPatient(string name)
     {
         if (front > rear)
@@ -82,21 +109,27 @@ class HospitalQueue
             }
         }
 
-        if (found)
-            Console.WriteLine("Patient Found");
-        else
-            Console.WriteLine("Patient Not Found");
+        Console.WriteLine(found ? "Patient Found" : "Patient Not Found");
     }
 
-    // Count Waiting Patients
+    /// <summary>
+    /// Displays the total number of waiting patients.
+    /// </summary>
     public void CountWaitingPatients()
     {
         Console.WriteLine("Total Waiting Patients: " + (rear - front + 1));
     }
 }
 
+/// <summary>
+/// Entry point of the Hospital Queue Management application.
+/// Displays a menu and performs queue operations.
+/// </summary>
 class Program
 {
+    /// <summary>
+    /// Main method of the application.
+    /// </summary>
     static void Main()
     {
         HospitalQueue hospital = new HospitalQueue();

@@ -1,0 +1,53 @@
+# Visual Studio / .NET
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.log
+*.tlog
+*.tmp
+*.temp
+
+# Build output
+bin/
+obj/
+**/bin/
+**/obj/
+Debug/
+Release/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+.project.assets.json
+project.assets.json
+
+# Package managers
+.nuget/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup / DB / misc
+*.bak
+*.db
+*.sqlite
+
+# Logs and temporary files
+*.log
+*.cache
+
+# Others
+*.userprefs
+
+# Keep the repo clean from temporary editor swp files
+*~
+*.swp

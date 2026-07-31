@@ -1,11 +1,16 @@
-﻿// Summary: String handling assignment with employee records and data extraction tasks.
-// Demonstrates splitting strings, searching records, validating emails, and formatting output.
-using System;
+﻿using System;
 
 namespace StringHandlingAssignment
 {
+    /// <summary>
+    /// Demonstrates various string handling operations on employee records.
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Stores employee records in the format:
+        /// ID|Name|Department|Email
+        /// </summary>
         static string[] employees =
         {
             "EMP001|John Smith|IT|john.smith@company.com",
@@ -15,9 +20,12 @@ namespace StringHandlingAssignment
             "EMP005|James Miller|Sales|james.miller@company.com"
         };
 
+        /// <summary>
+        /// Entry point of the application.
+        /// Executes all string handling tasks.
+        /// </summary>
         static void Main(string[] args)
         {
-            // Main entry point runs each string-handling task in sequence.
             Console.WriteLine("========== STRING HANDLING ASSIGNMENT ==========\n");
 
             DisplayEmployees();
@@ -52,6 +60,9 @@ namespace StringHandlingAssignment
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Displays all employee details.
+        /// </summary>
         static void DisplayEmployees()
         {
             Console.WriteLine("TASK 1 : Employee Details\n");
@@ -68,6 +79,9 @@ namespace StringHandlingAssignment
             }
         }
 
+        /// <summary>
+        /// Displays employee names in uppercase.
+        /// </summary>
         static void DisplayUpperCaseNames()
         {
             Console.WriteLine("TASK 2 : Uppercase Names\n");
@@ -79,6 +93,9 @@ namespace StringHandlingAssignment
             }
         }
 
+        /// <summary>
+        /// Displays the initials of each employee.
+        /// </summary>
         static void DisplayInitials()
         {
             Console.WriteLine("TASK 3 : Employee Initials\n");
@@ -86,9 +103,7 @@ namespace StringHandlingAssignment
             foreach (string emp in employees)
             {
                 string[] data = emp.Split('|');
-
                 string[] names = data[1].Split(' ');
-
                 string initials = "";
 
                 foreach (string n in names)
@@ -100,6 +115,9 @@ namespace StringHandlingAssignment
             }
         }
 
+        /// <summary>
+        /// Displays all employees from the IT department.
+        /// </summary>
         static void DisplayITEmployees()
         {
             Console.WriteLine("TASK 4 : IT Department Employees\n");
@@ -108,19 +126,23 @@ namespace StringHandlingAssignment
             {
                 if (emp.Contains("|IT|"))
                 {
-                    string[] data = emp.Split('|');
-                    Console.WriteLine(data[1]);
+                    Console.WriteLine(emp.Split('|')[1]);
                 }
             }
         }
 
+        /// <summary>
+        /// Displays the total number of employees.
+        /// </summary>
         static void CountEmployees()
         {
             Console.WriteLine("TASK 5 : Count Employees\n");
-
             Console.WriteLine("Total Employees = " + employees.Length);
         }
 
+        /// <summary>
+        /// Searches for an employee using the given ID.
+        /// </summary>
         static void SearchEmployee(string id)
         {
             Console.WriteLine("TASK 6 : Search Employee\n");
@@ -132,11 +154,13 @@ namespace StringHandlingAssignment
                 if (emp.StartsWith(id + "|"))
                 {
                     string[] data = emp.Split('|');
+
                     Console.WriteLine("Employee Found");
                     Console.WriteLine("ID : " + data[0]);
                     Console.WriteLine("Name : " + data[1]);
                     Console.WriteLine("Department : " + data[2]);
                     Console.WriteLine("Email : " + data[3]);
+
                     found = true;
                     break;
                 }
@@ -148,6 +172,9 @@ namespace StringHandlingAssignment
             }
         }
 
+        /// <summary>
+        /// Validates all employee email addresses.
+        /// </summary>
         static void ValidateEmails()
         {
             Console.WriteLine("TASK 7 : Validate Emails\n");
@@ -155,13 +182,18 @@ namespace StringHandlingAssignment
             foreach (string emp in employees)
             {
                 string[] data = emp.Split('|');
-                string email = data[3];
-                bool isValid = email.Contains("@") && email.Contains(".") && !email.Contains(" ");
+
+                bool isValid = data[3].Contains("@") &&
+                               data[3].Contains(".") &&
+                               !data[3].Contains(" ");
 
                 Console.WriteLine(data[1] + " -> " + (isValid ? "Valid" : "Invalid"));
             }
         }
 
+        /// <summary>
+        /// Replaces "IT" with "Information Technology".
+        /// </summary>
         static void ReplaceDepartment()
         {
             Console.WriteLine("TASK 8 : Replace Department\n");
@@ -169,39 +201,41 @@ namespace StringHandlingAssignment
             foreach (string emp in employees)
             {
                 string[] data = emp.Split('|');
-                string updatedDepartment = data[2] == "IT" ? "Information Technology" : data[2];
 
-                Console.WriteLine(data[1] + " -> " + updatedDepartment);
+                string department = data[2] == "IT"
+                    ? "Information Technology"
+                    : data[2];
+
+                Console.WriteLine(data[1] + " -> " + department);
             }
         }
 
+        /// <summary>
+        /// Counts characters in each employee's name
+        /// excluding spaces.
+        /// </summary>
         static void CountNameCharacters()
         {
             Console.WriteLine("TASK 9 : Count Name Characters\n");
 
             foreach (string emp in employees)
             {
-                string[] data = emp.Split('|');
-                string name = data[1];
-                int count = name.Replace(" ", "").Length;
-
-                Console.WriteLine(name + " -> " + count);
+                string name = emp.Split('|')[1];
+                Console.WriteLine(name + " -> " + name.Replace(" ", "").Length);
             }
         }
 
-        
-
+        /// <summary>
+        /// Extracts usernames from employee email addresses.
+        /// </summary>
         static void ExtractEmailUserNames()
         {
             Console.WriteLine("TASK 10 : Extract Email Usernames\n");
 
             foreach (string emp in employees)
             {
-                string[] data = emp.Split('|');
-                string email = data[3];
-                string username = email.Split('@')[0];
-
-                Console.WriteLine(email + " -> " + username);
+                string email = emp.Split('|')[3];
+                Console.WriteLine(email + " -> " + email.Split('@')[0]);
             }
         }
     }

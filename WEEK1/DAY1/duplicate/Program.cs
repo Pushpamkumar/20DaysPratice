@@ -1,29 +1,45 @@
-﻿// Summary: Identify and print duplicate elements from an integer array.
-// Uses a dictionary to count occurrences and prints values that appear more than once.
-using System;
+﻿using System;
 using System.Collections.Generic;
 
+/// <summary>
+/// Demonstrates how to identify duplicate elements in an integer array
+/// using a dictionary to count the frequency of each element.
+/// It also removes duplicate elements while preserving
+/// the order of their first occurrence.
+/// </summary>
 class Program
 {
+    /// <summary>
+    /// Entry point of the program.
+    /// Finds duplicate elements and removes duplicates from the array.
+    /// </summary>
     static void Main()
     {
-        // duplicate elements
-
+        // Sample array containing duplicate values.
         int[] arr = { 1, 2, 3, 2, 4, 5, 1, 6 };
 
+        // Dictionary stores each number along with
+        // the number of times it appears.
         Dictionary<int, int> dict = new Dictionary<int, int>();
 
-        // Count how many times each number occurs in the array.
+        // Count the frequency of every element.
         foreach (int num in arr)
         {
             if (dict.ContainsKey(num))
+            {
+                // Increment count if the element already exists.
                 dict[num]++;
+            }
             else
+            {
+                // Add the element with an initial count of 1.
                 dict[num] = 1;
+            }
         }
 
         Console.WriteLine("Duplicate Elements:");
 
+        // Print elements whose frequency is greater than 1.
         foreach (var item in dict)
         {
             if (item.Value > 1)
@@ -31,26 +47,26 @@ class Program
                 Console.WriteLine(item.Key);
             }
         }
-        
 
-        // removing the duplicate
-        // int[] arr = { 1, 2, 3, 2, 4, 5, 1, 6 };
+        // List to store unique elements while maintaining
+        // the original order of appearance.
+        List<int> result = new List<int>();
 
-        // List<int> result = new List<int>();
+        // Traverse the array and add only unseen elements.
+        foreach (int num in arr)
+        {
+            if (!result.Contains(num))
+            {
+                result.Add(num);
+            }
+        }
 
-        // foreach (int num in arr)
-        // {
-        //     if (!result.Contains(num))
-        //     {
-        //         result.Add(num);
-        //     }
-        // }
+        Console.WriteLine("\nArray After Removing Duplicates:");
 
-        // Console.WriteLine("Array After Removing Duplicates:");
-
-        // foreach (int num in result)
-        // {
-        //     Console.Write(num + " ");
-        // }
+        // Display the array after removing duplicates.
+        foreach (int num in result)
+        {
+            Console.Write(num + " ");
+        }
     }
 }
