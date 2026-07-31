@@ -1,0 +1,14 @@
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\bin\Debug\net10.0\Circular.exe
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\bin\Debug\net10.0\Circular.deps.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\bin\Debug\net10.0\Circular.runtimeconfig.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\bin\Debug\net10.0\Circular.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\bin\Debug\net10.0\Circular.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\Circular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\Circular.AssemblyInfoInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\Circular.AssemblyInfo.cs
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\Circular.csproj.CoreCompileInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\Circular.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\refint\Circular.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\Circular.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\Circular.genruntimeconfig.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Circular\obj\Debug\net10.0\ref\Circular.dll

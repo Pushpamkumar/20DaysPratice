@@ -1,0 +1,14 @@
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\bin\Debug\net10.0\Even_odd.exe
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\bin\Debug\net10.0\Even_odd.deps.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\bin\Debug\net10.0\Even_odd.runtimeconfig.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\bin\Debug\net10.0\Even_odd.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\bin\Debug\net10.0\Even_odd.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\Even_odd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\Even_odd.AssemblyInfoInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\Even_odd.AssemblyInfo.cs
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\Even_odd.csproj.CoreCompileInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\Even_odd.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\refint\Even_odd.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\Even_odd.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\Even_odd.genruntimeconfig.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Even_odd\obj\Debug\net10.0\ref\Even_odd.dll

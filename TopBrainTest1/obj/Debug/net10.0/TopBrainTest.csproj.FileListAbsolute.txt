@@ -1,0 +1,14 @@
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\bin\Debug\net10.0\TopBrainTest.exe
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\bin\Debug\net10.0\TopBrainTest.deps.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\bin\Debug\net10.0\TopBrainTest.runtimeconfig.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\bin\Debug\net10.0\TopBrainTest.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\bin\Debug\net10.0\TopBrainTest.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\TopBrainTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\TopBrainTest.AssemblyInfoInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\TopBrainTest.AssemblyInfo.cs
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\TopBrainTest.csproj.CoreCompileInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\TopBrainTest.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\refint\TopBrainTest.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\TopBrainTest.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\TopBrainTest.genruntimeconfig.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\TopbrainTest1\obj\Debug\net10.0\ref\TopBrainTest.dll

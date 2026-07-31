@@ -1,0 +1,14 @@
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\bin\Debug\net10.0\CustomerSupport.exe
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\bin\Debug\net10.0\CustomerSupport.deps.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\bin\Debug\net10.0\CustomerSupport.runtimeconfig.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\bin\Debug\net10.0\CustomerSupport.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\bin\Debug\net10.0\CustomerSupport.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\CustomerSupport.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\CustomerSupport.AssemblyInfoInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\CustomerSupport.AssemblyInfo.cs
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\CustomerSupport.csproj.CoreCompileInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\CustomerSupport.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\refint\CustomerSupport.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\CustomerSupport.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\CustomerSupport.genruntimeconfig.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\CustomerSupport\obj\Debug\net10.0\ref\CustomerSupport.dll

@@ -1,0 +1,14 @@
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\bin\Debug\net10.0\Assign1.exe
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\bin\Debug\net10.0\Assign1.deps.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\bin\Debug\net10.0\Assign1.runtimeconfig.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\bin\Debug\net10.0\Assign1.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\bin\Debug\net10.0\Assign1.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\Assign1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\Assign1.AssemblyInfoInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\Assign1.AssemblyInfo.cs
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\Assign1.csproj.CoreCompileInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\Assign1.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\refint\Assign1.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\Assign1.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\Assign1.genruntimeconfig.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Assign1\obj\Debug\net10.0\ref\Assign1.dll

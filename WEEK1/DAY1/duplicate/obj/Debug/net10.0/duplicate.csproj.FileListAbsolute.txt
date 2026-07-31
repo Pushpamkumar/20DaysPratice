@@ -1,0 +1,14 @@
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\bin\Debug\net10.0\duplicate.exe
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\bin\Debug\net10.0\duplicate.deps.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\bin\Debug\net10.0\duplicate.runtimeconfig.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\bin\Debug\net10.0\duplicate.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\bin\Debug\net10.0\duplicate.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\duplicate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\duplicate.AssemblyInfoInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\duplicate.AssemblyInfo.cs
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\duplicate.csproj.CoreCompileInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\duplicate.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\refint\duplicate.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\duplicate.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\duplicate.genruntimeconfig.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\duplicate\obj\Debug\net10.0\ref\duplicate.dll

@@ -1,0 +1,14 @@
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\bin\Debug\net10.0\Queuee.exe
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\bin\Debug\net10.0\Queuee.deps.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\bin\Debug\net10.0\Queuee.runtimeconfig.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\bin\Debug\net10.0\Queuee.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\bin\Debug\net10.0\Queuee.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\Queuee.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\Queuee.AssemblyInfoInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\Queuee.AssemblyInfo.cs
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\Queuee.csproj.CoreCompileInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\Queuee.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\refint\Queuee.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\Queuee.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\Queuee.genruntimeconfig.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\Queuee\obj\Debug\net10.0\ref\Queuee.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TopBrainTest1q2/1.0.0": {
+        "runtime": {
+          "TopBrainTest1q2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TopBrainTest1q2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

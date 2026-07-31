@@ -1,0 +1,14 @@
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\bin\Debug\net10.0\project.exe
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\bin\Debug\net10.0\project.deps.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\bin\Debug\net10.0\project.runtimeconfig.json
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\bin\Debug\net10.0\project.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\bin\Debug\net10.0\project.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\project.AssemblyInfoInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\project.AssemblyInfo.cs
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\project.csproj.CoreCompileInputs.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\project.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\refint\project.dll
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\project.pdb
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\project.genruntimeconfig.cache
+C:\Users\pushp\OneDrive\Desktop\csharp_pratice\WEEK1\DAY1\project\obj\Debug\net10.0\ref\project.dll
